@@ -21,4 +21,5 @@ This repo is an introductory assignment and exercise in branching and merging. I
 * git push [remote][branch] -- pushes a ready commit on [branch] to [remote], a remote repository associated with the local project.
 * git branch [name] -- creates a new branch labelled [name] with the current staging area \(commonly also used to rename a branch with -m\)
 * git checkout [name] -- In its most basic invocation, switches to an existing branch [name] \(I hear it can be used for all sorts of other functions, though\)
+* git merge [name] -- applies changes from existing branch [name] onto the current branch \(Assuming no merge conflicts\)
 
