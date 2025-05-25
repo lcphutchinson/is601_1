@@ -19,4 +19,5 @@ This repo is an introductory assignment and exercise in branching and merging. I
 * git add [path] -- adds changes from a file at [path] \(or all files in a directory at [path]\) to the current branch. 
 * git commit -- saves a commit on the current branch using the current state of staged files.
 * git push [remote][branch] -- pushes a ready commit on [branch] to [remote], a remote repository associated with the local project.
+* git branch [name] -- creates a new branch labelled [name] with the current staging area \(commonly also used to rename a branch with -m\)
 
