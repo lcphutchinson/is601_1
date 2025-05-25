@@ -12,8 +12,11 @@ This repo is an introductory assignment and exercise in branching and merging. I
 * rmdir [path] -- *remove directory*: Deletes a single empty directory at [path], if one exists.
 * cat [file] -- *\(?\)*: prints the contents of [file] in the terminal window. \(great for short text files like this one\)
 * chmod [file] -- *\(?\)*: Modifies the read/write/execute permissions of [file] \(I constantly had permissions issues when passing files back and forth with University VMs in undergrad. That's how I learned this one.\)
+* man [cmd] -- *manual*: Displays manual information about a bash command [cmd] \(I will be the first to say I never use this and definitely should\)
 
 ### Git SubCommands
+
+note: many git commands have more than one functionality depending on the options invoked. For brevity and intelligibility, I'm sharing only the most basic functions of each.
 
 * git status -- displays the tracking status of files in the working branch \(which files' changes are being tracked in the current commit and which aren't, which files are being tracked but have been deleted, etc.\)
 * git add [path] -- adds changes from a file at [path] \(or all files in a directory at [path]\) to the current branch. 
@@ -22,4 +25,7 @@ This repo is an introductory assignment and exercise in branching and merging. I
 * git branch [name] -- creates a new branch labelled [name] with the current staging area \(commonly also used to rename a branch with -m\)
 * git checkout [name] -- In its most basic invocation, switches to an existing branch [name] \(I hear it can be used for all sorts of other functions, though\)
 * git merge [name] -- applies changes from existing branch [name] onto the current branch \(Assuming no merge conflicts\)
+* git switch [name] -- more explicitly handles the basic invocation of checkout, switching to branch [name] \(I've heard this was specifically to take weight off of checkout\)
+* git rebase [name] -- updates the underlying commit history of a branch [name] with updates from the current branch. Should not be used as a Merge, but rather to 'catch up' a feature branch when its main is updated by other users.
+
 
