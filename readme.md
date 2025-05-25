@@ -5,4 +5,4 @@ This repo is an introductory assignment and exercise in branching and merging. I
 ### Linux Commands
 
 * cd [dir] -- *change directory*: moves the shell frame into a directory at [dir] \(ex. *cd workspace* moves into a directory called workspace inside the working directory\)
-
+* mkdir [path] -- *make directory*: creates a new directory at ./[path]
