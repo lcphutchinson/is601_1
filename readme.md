@@ -8,4 +8,4 @@ This repo is an introductory assignment and exercise in branching and merging. I
 * mkdir [path] -- *make directory*: creates a new directory at ./[path]
 * mv [file][path] -- *move*: Moves the file at [file] to [path], including renaming the file if [path] specifies a different file name than [file]
 * cp [file][path] -- *copy*: Creates a copy of [file] at [path], including renaming the file if [path] specifies a different file name than [file]
-
+* rm [path] -- *remove*: Deletes a single file at [path] if one exists \(or every file in a directory at [path], if the -r option is used\)
