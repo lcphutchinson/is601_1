@@ -16,3 +16,4 @@ This repo is an introductory assignment and exercise in branching and merging. I
 ### Git SubCommands
 
 * git status -- displays the tracking status of files in the working branch \(which files' changes are being tracked in the current commit and which aren't, which files are being tracked but have been deleted, etc.\)
+* git add [path] -- adds changes from a file at [path] \(or all files in a directory at [path]\) to the current branch. 
