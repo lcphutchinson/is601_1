@@ -12,3 +12,7 @@ This repo is an introductory assignment and exercise in branching and merging. I
 * rmdir [path] -- *remove directory*: Deletes a single empty directory at [path], if one exists.
 * cat [file] -- *\(?\)*: prints the contents of [file] in the terminal window. \(great for short text files like this one\)
 * chmod [file] -- *\(?\)*: Modifies the read/write/execute permissions of [file] \(I constantly had permissions issues when passing files back and forth with University VMs in undergrad. That's how I learned this one.\)
+
+### Git SubCommands
+
+* git status -- displays the tracking status of files in the working branch \(which files' changes are being tracked in the current commit and which aren't, which files are being tracked but have been deleted, etc.\)
